@@ -23,7 +23,7 @@
     color: #AED2FF;
 }
 
-#violet {
+#violet , #footer h1{
     color: #9400FF;
     font-weight: 6000;
     text-shadow: 4px 4px 5px #27005D;
@@ -45,7 +45,19 @@
 
 #footer ul {
     display: flex;
-    justify-content: center;
+    justify-content: start;   
+}
+
+#footer .container span {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+}
+
+#footer .text-body-secondary {
+    color: #E4F1FF !important;
 }
 
 @media (max-width: 630px) {
@@ -53,3 +65,4 @@
         padding: 2rem !important;
     }
 }
+
