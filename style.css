@@ -1,0 +1,55 @@
+#bg {
+    background: rgb(148,0,255);
+    background: radial-gradient(circle, rgba(148,0,255,1) 0%, rgba(39,0,93,1) 99%);
+    max-width: 100%;
+}
+
+ .navbar-dark .navbar[data-bs-theme="dark"]{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    color: E4F1FF !important;
+}
+
+.home1 .text-body-emphasis ,h2{
+    color: #E4F1FF !important;
+}
+
+.home1 p {
+    color: #AED2FF;
+}
+
+#violet {
+    color: #9400FF;
+    font-weight: 6000;
+    text-shadow: 4px 4px 5px #27005D;
+}
+
+#skills .text-body-emphasis , #study h1{
+    color:#AED2FF !important;
+}
+
+#skills ul, #study {
+    color: #E4F1FF;
+    list-style-type: disc;
+}
+
+#footer ul , #footer p{
+    list-style-type: none;
+    color: #E4F1FF;
+}
+
+#footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 630px) {
+    #skills .container {
+        padding: 2rem !important;
+    }
+}
