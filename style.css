@@ -60,6 +60,7 @@
     color: #E4F1FF !important;
 }
 
+
 @media (max-width: 630px) {
     #skills .container {
         padding: 2rem !important;
@@ -71,6 +72,9 @@
         border-bottom: 1px solid #AED2FF;
         border-image: radial-gradient(#27005D, #9400FF) 1;
     }
-}
 
+    #skills .container {
+        margin-top: 100px;
+    }
+}
 
