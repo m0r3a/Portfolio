@@ -66,3 +66,11 @@
     }
 }
 
+@media (max-width: 769px) {
+    .navbar {
+        border-bottom: 1px solid #AED2FF;
+        border-image: radial-gradient(#27005D, #9400FF) 1;
+    }
+}
+
+
